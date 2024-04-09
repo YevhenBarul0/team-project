@@ -5,8 +5,30 @@
   |============================
 */
 @import url('./reset.css');
-@import url('./vite-promo.css');
+
+/* Олександр Соловей */
 @import url('./header.css');
+
+/* Daria Shevchenko */
+@import url('./hero.css');
+
+/* Dima Piatnyk */
+@import url('./how_it_works.css');
+
+/* Інна Старовицька */
+@import url('./advertisement.css');
+
+/* Аня Паршукова */
+@import url('./vegetables.css');
+
+/* Наталія Орлова */
+@import url('./reviews.css');
+
+/* Жека Степанов */
+@import url('./your_order.css');
+
+/* Alyona Korneeva */
+@import url('./footer.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
