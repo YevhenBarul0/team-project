@@ -1,0 +1,124 @@
+.order {
+  padding: 80px 20px;
+  width: 375px;
+  height: 1519px;
+}
+@media screen and (min-width: 768px) {
+  .order {
+    padding: 100px 0px;
+    width: 768px;
+    height: 1576px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .order {
+    padding: 100px;
+    width: 1280px;
+    height: 977px;
+  }
+}
+.order-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 104%;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: var(--main-text);
+}
+@media screen and (min-width: 768px) {
+  .order-title {
+    font-size: 64px;
+    line-height: 100%;
+  }
+}
+
+.harvest {
+}
+.order-text {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  color: var(--main-text);
+}
+@media screen and (min-width: 768px) {
+  .order-text {
+    font-size: 16px;
+    line-height: 125%;
+  }
+}
+/* ======================================================================================================================================================================== */
+.order-social {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../img/your-order-img/background-soc-mob@x1\\(1\).jpg);
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 72px;
+  padding-bottom: 72px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .order-social {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../img/your-order-img/background-soc-mob@x2\\(1\).jpg);
+  }
+}
+@media screen and (min-width: 768px) {
+  .order-social {
+    max-width: 768px;
+    padding-top: 112px;
+    padding-bottom: 112px;
+
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../img/your-order-img/background-soc-tablet@x1\\(1\).jpg);
+  }
+}
+@media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../img/your-order-img/background-soc-tablet@x2\\(1\).jpg);
+  }
+}
+@media screen and (min-width: 1280px) {
+  .hero {
+    max-width: 1440px;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../img/your-order-img/background-soc-desktop@x1\\(1\).jpg);
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../img/your-order-img/background-soc-desktop@x2\\(1\).jpg);
+    }
+  }
+}
