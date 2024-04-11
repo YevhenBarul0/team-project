@@ -1,5 +1,5 @@
 <header class="header">
-  <div class="container">
+  <div class="container container-header">
     <nav class="nav">
       <a href="#">
         <svg class="nav-logo-svg" width="168" height="16">
@@ -7,12 +7,18 @@
         </svg>
       </a>
       <ul class="nav-list">
-        <li class="nav-item"><a href="#" class="nav-link">How It Works</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Vegetables</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Reviews</a></li>
+        <li class="nav-item">
+          <a href="#how-it-works" class="nav-link">How It Works</a>
+        </li>
+        <li class="nav-item">
+          <a href="#vegetables" class="nav-link">Vegetables</a>
+        </li>
+        <li class="nav-item">
+          <a href="#reviews" class="nav-link">Reviews</a>
+        </li>
       </ul>
       <button class="nav-btn">Shop now</button>
-      <button class="nav-btn-mob">
+      <button class="nav-btn-mob" data-modal-open>
         <svg class="nav-btn-mob-icon" width="21" height="16">
           <use href="./img/icons.svg#icon-menu-mob"></use>
         </svg>
@@ -22,23 +28,29 @@
 
   <!-- modal-menu -->
 
-  <div class="backdrop">
+  <div class="backdrop" data-modal>
     <div class="modal-menu">
-      <button class="modal-menu-close" type="button">X</button>
+      <button class="modal-menu-close" type="button" data-modal-close>
+        <svg class="modal-menu-close-icon" width="32" height="32">
+          <use href="/img/icons.svg#icon-close"></use>
+        </svg>
+      </button>
       <nav class="modal-menu-nav">
         <ul class="modal-menu-list">
           <li class="modal-menu-item">
-            <a href="#" class="modal-menu-lik">How It Works</a>
+            <a href="#how-it-works" class="modal-menu-lik">How It Works</a>
           </li>
           <li class="modal-menu-item">
-            <a href="#" class="modal-menu-lik">Vegetables</a>
+            <a href="#vegetables" class="modal-menu-lik">Vegetables</a>
           </li>
           <li class="modal-menu-item">
-            <a href="#" class="modal-menu-lik">Reviews</a>
+            <a href="#reviews" class="modal-menu-lik">Reviews</a>
           </li>
         </ul>
       </nav>
-      <button class="modal-menu-btn" type="button">Shop now</button>
+      <button class="modal-menu-btn" type="button" data-modal-close>
+        Shop now
+      </button>
     </div>
   </div>
 </header>

@@ -5,11 +5,11 @@ button {
 .header {
   background: #576f35;
 }
-.container {
+/* .container {
   margin: 0 auto;
   max-width: 320px;
   padding: 0 20px;
-}
+} */
 .nav {
   display: flex;
   justify-content: space-between;
@@ -24,10 +24,7 @@ button {
 .nav-list {
   display: none;
 }
-.nav-item {
-}
-.nav-link {
-}
+
 .nav-btn {
   display: none;
 }
@@ -38,15 +35,15 @@ button {
   fill: #fbfbfb;
 }
 
-@media screen and (min-width: 375px) {
+/* @media screen and (min-width: 375px) {
   .container {
     max-width: 375px;
   }
-}
+} */
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
+    /* max-width: 768px; */
     padding: 0 32px;
   }
   .nav {
@@ -69,7 +66,7 @@ button {
     z-index: 15;
     background: transparent;
   }
-  .container {
+  .container-header {
     position: absolute;
     top: 0;
     left: 0;
@@ -102,7 +99,15 @@ button {
     letter-spacing: -0.02em;
     text-align: center;
     color: #fbfbfb;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+
+  .nav-item:hover {
+    color: #7a3145;
+    background-color: #fbfbfb;
+  }
+
   .nav-btn-mob {
     display: none;
   }
@@ -124,6 +129,9 @@ button {
   .nav-btn:hover {
     background-color: #622133;
   }
+  .backdrop {
+    display: none;
+  }
 }
 
 /* ========================================================================================================================================================
@@ -143,17 +151,15 @@ modal-menu
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.is-open-menu {
+.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
 }
 
 .modal-menu {
-  max-width: 375px;
+  width: 375px;
   height: 100vh;
-  margin: 0 auto;
-  border-radius: 4px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -165,12 +171,31 @@ modal-menu
   justify-content: space-between;
   background-color: #7a3145;
 }
+.modal-menu-close {
+  background: transparent;
 
+  position: absolute;
+  right: 20px;
+  top: 20px;
+
+  padding: 0;
+}
+
+.modal-menu-close-icon {
+  stroke: #fbfbfb;
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-menu-close-icon:hover {
+  stroke: #b48989;
+}
+.modal-menu-nav {
+  margin: 240px auto 0;
+}
 .modal-menu-list {
   padding: 0 auto;
 }
 .modal-menu-item {
-  font-family: 'Inter Tight', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
@@ -181,7 +206,83 @@ modal-menu
   border: 1px solid rgba(251, 251, 251, 0.4);
   border-radius: 12px;
 
-  margin-bottom: 40px;
+  padding: 12px 16px;
+  width: 115px;
+
+  margin-bottom: 8px;
   display: block;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-menu-item:hover {
+  color: #7a3145;
+  background-color: #fbfbfb;
+}
+
+.modal-menu-btn {
+  margin: 0 auto 40px;
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+
+  background: #7a3145;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 30px;
+  padding: 16px 41px;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-menu-btn:hover {
+  color: #7a3145;
+  background-color: #fbfbfb;
+}
+
+@media screen and (min-width: 768px) {
+  .backdrop {
+    background: rgba(20, 20, 20, 0.4);
+  }
+  .modal-menu {
+    width: 375px;
+    height: 100vh;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    background-color: #7a3145;
+  }
+  .modal-menu-close-icon {
+    width: 40px;
+    height: 40px;
+  }
+  .modal-menu-item {
+    font-size: 16px;
+    line-height: 1.25;
+
+    border: 1px solid rgba(251, 251, 251, 0.4);
+    border-radius: 12px;
+
+    padding: 12px 21px;
+    width: 135px;
+
+    margin-bottom: 8px;
+    display: block;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .modal-menu-btn {
+    margin: 0 auto 50px;
+    font-size: 18px;
+    line-height: 1.11;
+    padding: 16px 32px;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
