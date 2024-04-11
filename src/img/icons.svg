@@ -1,9 +1,6 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<symbol id="icon-close" viewBox="0 0 32 32">
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.2" d="M24 8l-16 16"></path>
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.2" d="M8 8l16 16"></path>
-</symbol>
+
 <symbol id="icon-logo" viewBox="0 0 345 32">
 <path d="M29.082 0.314h-4.009c-1.237 0-2.24 0.983-2.24 2.195v3.929c0 1.212 1.003 2.195 2.24 2.195h4.009c1.237 0 2.24-0.983 2.24-2.195v-3.929c0-1.212-1.003-2.195-2.24-2.195z"></path>
 <path d="M6.73 23.040h-4.318c-1.332 0-2.412 0.983-2.412 2.195v3.929c0 1.212 1.080 2.195 2.412 2.195h4.318c1.332 0 2.412-0.983 2.412-2.195v-3.929c0-1.212-1.080-2.195-2.412-2.195z"></path>
@@ -27,6 +24,10 @@
 <path d="M281.522 29.867v-25.956h18.325v4.124h-13.184v6.187h11.899v4.124h-11.899v7.289h13.367v4.231h-18.508z"></path>
 <path d="M312.795 30.222c-6.83 0-10.944-3.591-10.944-8.924h5.876c-0.073 3.022 1.984 4.693 5.068 4.693 3.268 0 4.811-1.244 4.811-3.093s-1.323-2.631-6.023-3.876c-4.297-1.138-8.997-2.489-8.997-7.822 0-4.231 3.82-7.644 9.842-7.644 6.206 0 10.172 3.378 10.172 8.142h-5.692c-0.036-2.524-1.799-3.911-4.48-3.911-2.606 0-4.332 1.28-4.332 2.987 0 2.027 1.431 2.667 5.177 3.698 5.545 1.493 10.025 2.098 10.025 7.893 0 4.658-4.37 7.858-10.501 7.858z"></path>
 <path d="M331.669 29.867v-21.724h-8.116v-4.231h21.335v4.231h-8.078v21.724h-5.141z"></path>
+</symbol>
+<symbol id="icon-close" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3" d="M24 8l-16 16"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3" d="M8 8l16 16"></path>
 </symbol>
 <symbol id="icon-menu-mob" viewBox="0 0 42 32">
 <path fill="none" stroke="#fbfbfb" style="stroke: var(--color1, #fbfbfb)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.8" d="M3.734 3.2h34.133M3.734 16h17.067M3.734 28.8h34.133"></path>
