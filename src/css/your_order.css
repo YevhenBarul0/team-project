@@ -2,6 +2,7 @@
   padding: 80px 20px;
   width: 375px;
   height: 1519px;
+  color: #7a3145;
 }
 @media screen and (min-width: 768px) {
   .order {
@@ -18,13 +19,12 @@
   }
 }
 .order-title {
-  font-family: var(--font-family);
   font-weight: 600;
   font-size: 48px;
   line-height: 104%;
   letter-spacing: -0.01em;
   text-transform: uppercase;
-  color: var(--main-text);
+  color: #fbfbfb;
 }
 @media screen and (min-width: 768px) {
   .order-title {
@@ -34,13 +34,13 @@
 }
 
 .harvest {
+  color: rgba(251, 251, 251, 0.3);
 }
 .order-text {
-  font-family: var(--font-family);
   font-weight: 500;
   font-size: 14px;
   line-height: 129%;
-  color: var(--main-text);
+  color: #fbfbfb;
 }
 @media screen and (min-width: 768px) {
   .order-text {
@@ -48,7 +48,173 @@
     line-height: 125%;
   }
 }
+/* ============================================================================================================================================================ */
+.order-input-form {
+}
+.form-tittle {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 108%;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #141414;
+}
+.fromus {
+  color: #7a3145;
+}
+.theform {
+  color: #576f35;
+}
+.order-form {
+  width: 295px;
+  height: 213px;
+}
+@media screen and (min-width: 768px) {
+  .order-form {
+    width: 428px;
+    height: 306px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .order-form {
+    width: 429px;
+    height: 229px;
+  }
+}
+
+.inp {
+  border: 1px solid rgba(20, 20, 20, 0.2);
+  border-radius: 30px;
+  padding: 14px 220px 14px 16px;
+  width: 295px;
+  height: 46px;
+}
+@media screen and (min-width: 768px) {
+  .inp {
+    padding: 16px 345px 16px 16px;
+    width: 428px;
+    height: 52px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .inp {
+    padding: 16px 346px 16px 16px;
+    width: 429px;
+  }
+}
+.inp-mail {
+  border: 1px solid rgba(20, 20, 20, 0.2);
+  border-radius: 30px;
+  padding: 14px 247px 14px 16px;
+  width: 295px;
+  height: 46px;
+}
+@media screen and (min-width: 768px) {
+  .inp-mail {
+    padding: 16px 375px 16px 16px;
+    width: 428px;
+    height: 52px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .inp-mail {
+    padding: 16px 376px 16px 16px;
+    width: 429px;
+    height: 52px;
+  }
+}
+.inp-mail {
+  border: 1px solid rgba(20, 20, 20, 0.2);
+  border-radius: 30px;
+  padding: 14px 247px 14px 16px;
+  width: 295px;
+  height: 46px;
+}
+@media screen and (min-width: 768px) {
+  .inp-mail {
+    padding: 16px 375px 16px 16px;
+    width: 428px;
+    height: 52px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .inp-mail {
+    padding: 16px 376px 16px 16px;
+    width: 429px;
+    height: 52px;
+  }
+}
+
+.feedback {
+  border: 1px solid rgba(20, 20, 20, 0.2);
+  border-radius: 15px;
+  padding: 14px 219px 59px 16px;
+  width: 295px;
+  height: 91px;
+}
+@media screen and (min-width: 768px) {
+  .feedback {
+    padding: 16px 344px 59px 16px;
+    width: 428px;
+    height: 95px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .feedback {
+    padding: 16px 345px 59px 16px;
+    width: 429px;
+    height: 95px;
+  }
+}
+
+.send {
+  border-radius: 30px;
+  padding: 16px 129px;
+  width: 295px;
+  height: 50px;
+  color: #576f35;
+}
+@media screen and (min-width: 768px) {
+  .send {
+    padding: 16px 191px;
+    width: 428px;
+    height: 52px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .send {
+    width: 429px;
+  }
+}
 /* ======================================================================================================================================================================== */
+
+.order-social {
+  border-radius: 30px;
+  padding: 40px 20px;
+  width: 335px;
+  height: 465px;
+  background-color: #576f35;
+}
+.order-soc-text {
+}
+.order-soc-list {
+}
+.order-soc-item {
+}
+.soc-inst {
+}
+.soc-ytb {
+}
+.soc-fb {
+}
+
+/* 
 .order-social {
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -121,4 +287,4 @@
         url(../img/your-order-img/background-soc-desktop@x2\\(1\).jpg);
     }
   }
-}
+} */
