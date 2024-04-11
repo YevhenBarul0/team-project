@@ -16,6 +16,7 @@ button {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 48px;
+  align-items: baseline;
 }
 .nav-logo-svg {
   fill: #fbfbfb;
@@ -31,6 +32,10 @@ button {
   display: none;
 }
 .nav-btn-mob {
+  background: transparent;
+}
+.nav-btn-mob-icon {
+  fill: #fbfbfb;
 }
 
 @media screen and (min-width: 375px) {
@@ -48,6 +53,14 @@ button {
     padding-top: 32px;
     padding-bottom: 50px;
   }
+  .nav-logo-svg {
+    width: 194px;
+    height: 18px;
+  }
+  .nav-btn-mob-icon {
+    width: 27px;
+    height: 20px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -60,21 +73,29 @@ button {
     position: absolute;
     top: 0;
     left: 0;
+    right: 0;
     width: 100%;
 
     max-width: 1280px;
+  }
+
+  .nav {
+    padding-bottom: 0;
   }
   .nav-list {
     display: flex;
     justify-content: space-between;
     text-align: center;
     gap: 8px;
+    margin-left: auto;
+    margin-right: 20px;
   }
   .nav-item {
     border: 1px solid rgba(251, 251, 251, 0.4);
     border-radius: 12px;
     padding: 12px;
 
+    font-family: 'Inter Tight', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.25;
@@ -89,7 +110,7 @@ button {
     display: block;
     border-radius: 30px;
     padding: 16px 32px;
-    background: #7a3145;
+    background-color: #7a3145;
 
     font-weight: 600;
     font-size: 18px;
@@ -97,6 +118,11 @@ button {
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #fbfbfb;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .nav-btn:hover {
+    background-color: #622133;
   }
 }
 
