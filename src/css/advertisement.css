@@ -1,0 +1,109 @@
+.advertisement {
+  padding: 80px 10px;
+  width: 375px;
+  height: 469px;
+  background: #fbfbfb;
+}
+@media screen and (min-width: 768px) {
+  .advertisement {
+    padding: 100px 16px;
+    width: 768px;
+    height: 488px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .advertisement {
+    padding: 100px;
+    width: 1280px;
+    height: 440px;
+  }
+}
+
+.advertisement-container {
+  max-width: 355px;
+}
+@media screen and (min-width: 768px) {
+  .advertisement-container {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .advertisement-container {
+    max-width: 1280px;
+  }
+}
+
+.hidden-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.advertisement-text {
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 50px;
+  line-height: 1.04;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  background: #576f35;
+  border-radius: 12px;
+  width: 355px;
+  height: 102px;
+  background-image: url(../img/advertisement-img/advertisement-image..png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-left: 13px;
+}
+@media screen and (min-width: 768px) {
+  .advertisement-text {
+    font-size: 64px;
+    line-height: 70px;
+    line-height: 1.09;
+    width: 736px;
+    height: 86px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .advertisement-text {
+    font-size: 76px;
+    line-height: 80px;
+    line-height: 1.05;
+    width: 808px;
+    height: 86px;
+  }
+}
+.advertisement-text-part {
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 50px;
+  line-height: 1.04167;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #141414;
+}
+
+@media screen and (min-width: 768px) {
+  .advertisement-text-part {
+    font-size: 64px;
+    line-height: 70px;
+    line-height: 1.09;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .advertisement-text-part {
+    font-size: 76px;
+    line-height: 80px;
+    line-height: 1.05;
+  }
+}
