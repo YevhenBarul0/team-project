@@ -18,6 +18,7 @@ button {
   padding-bottom: 48px;
 }
 .nav-logo-svg {
+  fill: #fbfbfb;
 }
 .nav-list {
   display: none;
