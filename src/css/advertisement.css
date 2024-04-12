@@ -1,31 +1,32 @@
 .advertisement {
-}
-@media screen and (min-width: 768px) {
-  .advertisement {
-  }
-}
-@media screen and (min-width: 1280px) {
-  .advertisement {
-  }
-}
-.advertisement-container {
+  margin: 0 auto;
   padding: 80px 10px;
   width: 375px;
   height: 469px;
   background: #fbfbfb;
 }
 @media screen and (min-width: 768px) {
-  .advertisement-container {
+  .advertisement {
     padding: 100px 16px;
     width: 768px;
     height: 488px;
   }
 }
 @media screen and (min-width: 1280px) {
-  .advertisement-container {
+  .advertisement {
     padding: 100px;
     width: 1280px;
     height: 440px;
+  }
+}
+.advertisement-container {
+}
+@media screen and (min-width: 768px) {
+  .advertisement-container {
+  }
+}
+@media screen and (min-width: 1280px) {
+  .advertisement-container {
   }
 }
 
@@ -41,7 +42,7 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.advertisement-text {
+.text-with-background {
   font-family: 'Inter Tight', sans-serif;
   font-weight: 600;
   font-size: 48px;
@@ -58,11 +59,12 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  display: inline-block;
   padding-left: 10px;
   padding-right: 10px;
 }
 @media screen and (min-width: 768px) {
-  .advertisement-text {
+  .text-with-background {
     font-size: 64px;
     line-height: 70px;
     line-height: 1.09;
