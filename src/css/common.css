@@ -9,10 +9,6 @@ body {
   margin: 0 auto;
 }
 
-.section {
-  padding: 96px 0;
-}
-
 @media screen and (min-width: 375px) {
   .container {
     max-width: 375px;
