@@ -1,35 +1,31 @@
 .advertisement {
+}
+@media screen and (min-width: 768px) {
+  .advertisement {
+  }
+}
+@media screen and (min-width: 1280px) {
+  .advertisement {
+  }
+}
+.advertisement-container {
   padding: 80px 10px;
   width: 375px;
   height: 469px;
   background: #fbfbfb;
 }
 @media screen and (min-width: 768px) {
-  .advertisement {
+  .advertisement-container {
     padding: 100px 16px;
     width: 768px;
     height: 488px;
   }
 }
 @media screen and (min-width: 1280px) {
-  .advertisement {
+  .advertisement-container {
     padding: 100px;
     width: 1280px;
     height: 440px;
-  }
-}
-
-.advertisement-container {
-  max-width: 355px;
-}
-@media screen and (min-width: 768px) {
-  .advertisement-container {
-    max-width: 768px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .advertisement-container {
-    max-width: 1280px;
   }
 }
 
@@ -58,11 +54,12 @@
   border-radius: 12px;
   width: 355px;
   height: 102px;
-  background-image: url(../img/advertisement-img/advertisement-image..png);
+  background-image: url(/img/advertisement-img/advertisement-image.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-left: 13px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 @media screen and (min-width: 768px) {
   .advertisement-text {
@@ -71,6 +68,8 @@
     line-height: 1.09;
     width: 736px;
     height: 86px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -80,6 +79,7 @@
     line-height: 1.05;
     width: 808px;
     height: 86px;
+    padding-left: 13px;
   }
 }
 .advertisement-text-part {
