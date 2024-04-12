@@ -96,7 +96,4 @@
   .reviews-item:nth-child(3) {
     display: list-item;
   }
-  .section {
-    padding: 100px 0;
-  }
 }
