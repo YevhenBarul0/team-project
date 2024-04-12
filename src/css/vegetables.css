@@ -40,6 +40,7 @@
     padding: 32px 26px;
     width: 334px;
     height: 379px;
+    max-width: 100%;
 }
 
 .vegetables-info {}
@@ -64,7 +65,7 @@
 
 @media screen and (min-width: 768px){
     .vegetables-container{
-    max-width: 768px;
+    /* max-width: 768px; */
     padding: 100px 32px 100px 32px;
     }
 
@@ -99,7 +100,7 @@
 
 @media screen and (min-width: 1280px) {
     .vegetables-container {
-        max-width: 1280px;
+        /* max-width: 1280px; */
         padding: 100px;
     }
     .vegetables-list-item{
