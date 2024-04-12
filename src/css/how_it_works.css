@@ -1,10 +1,33 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .hiw_img_wrap {
-  background-color: #7a3145;
+  background: #7a3145;
   padding: 40px 20px;
 }
 
 .img_hiw {
+  height: 450px;
+
   border-radius: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(
+      rgba(20, 20, 20, 0.3),
+      rgba(20, 20, 20, 0.3)
+    ),
+    url(../img/how_it_works/Rectangle.jpg);
 }
 
 .hiw_content_wrap {
@@ -14,7 +37,7 @@
 
 .hiw_titlle {
   color: #fbfbfb;
-  ont-weight: 600;
+  font-weight: 600;
   font-size: 28px;
   line-height: 100%;
   letter-spacing: -0.01em;
@@ -35,9 +58,16 @@
 }
 
 .hwi_list {
+  list-style: none;
+  padding: 0;
+  counter-reset: section;
 }
 
 .hwi_list_item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-weight: 500;
   font-size: 12px;
   line-height: 117%;
@@ -47,6 +77,28 @@
   border-radius: 15px;
   padding: 12px 59px 12px 24px;
   height: 76px;
+}
+
+.hwi_list_item::before {
+  position: absolute;
+  left: 46px;
+  top: 50%;
+  transform: translateY(-50%);
+  counter-increment: section;
+  content: counter(section);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: #2e1d1d;
+}
+
+.icon-Ellipse36 {
+  position: absolute;
+
+  left: 29px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .hwi_list_item:not(:last-child) {
