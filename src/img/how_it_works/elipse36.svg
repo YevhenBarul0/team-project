@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
 <defs>
-<symbol id="icon-Ellipse-36" width="52" height="52" viewBox="0 0 52 52" fill="none">
+<symbol id="icon-Ellipse-36"  viewBox="0 0 32 32" fill="none">
 <path fill="#7a3145" d="M28.923 16c0 7.137-5.786 12.923-12.923 12.923S3.077 23.137 3.077 16C3.077 8.863 8.863 3.077 16 3.077S28.923 8.863 28.923 16z" style="fill:var(--color1, #7a3145)"/>
 <path fill="none" stroke="#7A3145" stroke-opacity="0.3" stroke-width="3.077" d="M30.462 16c0 7.987-6.475 14.462-14.462 14.462S1.538 23.987 1.538 16 8.013 1.538 16 1.538 30.462 8.013 30.462 16z" style="stroke:var(--color1, #7a3145)"/>
 </symbol>

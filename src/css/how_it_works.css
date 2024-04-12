@@ -1,14 +1,5 @@
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+.hiw_wrap {
+  min-width: 375px;
 }
 
 .hiw_img_wrap {
@@ -18,7 +9,6 @@
 
 .img_hiw {
   height: 450px;
-
   border-radius: 30px;
   background-repeat: no-repeat;
   background-position: center;
@@ -64,48 +54,49 @@
 }
 
 .hwi_list_item {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 117%;
-  letter-spacing: -0.02em;
-  color: rgba(20, 20, 20, 0.6);
   background-color: #fbfbfb;
   border-radius: 15px;
-  padding: 12px 59px 12px 24px;
+  padding: 12px 24px;
   height: 76px;
+  position: relative;
 }
 
 .hwi_list_item::before {
-  position: absolute;
-  left: 46px;
-  top: 50%;
-  transform: translateY(-50%);
   counter-increment: section;
   content: counter(section);
   font-weight: 600;
   font-size: 20px;
   line-height: 100%;
   letter-spacing: -0.02em;
-  color: #2e1d1d;
-}
-
-.icon-Ellipse36 {
+  color: #fbfbfb;
   position: absolute;
-
-  left: 29px;
+  left: 46px;
   top: 50%;
   transform: translateY(-50%);
+}
+
+.icon_wrap {
+  width: 52px;
+  margin-right: 24px;
 }
 
 .hwi_list_item:not(:last-child) {
   margin-bottom: 20px;
 }
 
-.hwi_list_item_wrap {
+.list_item_content {
+  font-size: 12px;
+  line-height: 117%;
+  letter-spacing: -0.02em;
+  color: rgba(20, 20, 20, 0.6);
+  max-width: 208px;
+  position: absolute;
+  left: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.item_content_wrap {
   color: rgba(20, 20, 20);
   font-weight: 700;
 }
