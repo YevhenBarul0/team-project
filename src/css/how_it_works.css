@@ -79,6 +79,14 @@
   gap: 24px;
 }
 
+.circle {
+  background: #7a3145;
+  border: 5px solid rgb(245 215 223 / 71%);
+  border-radius: 50%;
+  height: 52px;
+  width: 52px;
+}
+
 .icon-Ellipse-36 {
   display: block;
   stroke-width: 0;
