@@ -1,10 +1,8 @@
 .order {
-  max-width: 375px;
   background-color: #7a3145;
 }
 .order-container {
   padding: 80px 20px 40px;
-  background-color: #7a3145;
   min-width: 320px;
   max-width: 375px;
 }
