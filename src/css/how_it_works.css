@@ -132,7 +132,7 @@
   }
 
   .img_hiw {
-    height: 640px;
+    min-height: 590px;
   }
 
   .hiw_content_wrap {
