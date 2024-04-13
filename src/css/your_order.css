@@ -1,19 +1,23 @@
-.order {
+/* .order-container {
   width: 100%;
+  padding: 100px 32px 50px;
   height: 100%;
   background-color: #7a3145;
 }
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .order-container {
+    width: 100%;
+  }
+}
 @media screen and (min-width: 768px) {
-  .order {
-    /* width: 768px;
-    height: 1576px; */
+  .order-container {
+    max-width: 768px;
   }
 }
 @media screen and (min-width: 1280px) {
-  .order {
-    /* padding: 100px; */
-    /* width: 1280px;
-    height: 977px; */
+  .order-container {
+    padding: 100px;
+    max-width: 1280px;
   }
 }
 .order-head {
@@ -29,6 +33,50 @@
 @media screen and (min-width: 1280px) {
   .order-head {
     padding: 100px 100px 50px;
+    max-width: 751px;
+  }
+} */
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+}
+.order {
+  background-color: #7a3145;
+}
+.order-container {
+  padding: 80px 20px 40px;
+  background-color: #7a3145;
+  min-width: 320px;
+}
+@media screen and (max-width: 375px) {
+  .order-container {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .order-container {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .order-container {
+    padding: 100px;
+    max-width: 1280px;
+  }
+}
+.order-head {
+  padding: 0 0 20px 0;
+  max-width: 335px;
+}
+@media screen and (min-width: 768px) {
+  .order-head {
+    padding: 20px 12px 50px;
+    max-width: 640px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .order-head {
+    padding: 0 0 50px 0;
     max-width: 751px;
   }
 }
@@ -73,21 +121,29 @@
 }
 /* ============================================================================================================================================================ */
 .wind {
-  display: flex;
-
+  /* display: flex;
   flex-wrap: wrap;
-  gap: 20px;
-  margin-bottom: 80px;
+  gap: 20px; */
+  /* margin-bottom: 80px; */
+  max-width: 375px;
 }
 @media screen and (min-width: 768px) {
   .wind {
-    gap: 25px;
-    margin-bottom: 100px;
+    /* display: flex;
+    flex-wrap: wrap;
+    gap: 25px; */
+    margin: auto 50px;
+    max-width: 628px;
+    padding: 0;
+    /* margin-bottom: 100px; */
   }
 }
 @media screen and (min-width: 1280px) {
   .wind {
+    display: -webkit-box;
     gap: 24px;
+    flex-wrap: nowrap;
+    margin: auto 0;
   }
 }
 /* ============================================================================================================================================================ */
@@ -97,21 +153,18 @@
   padding: 40px 20px;
   max-width: 335px;
   height: 533px;
-  margin: auto 20px;
 }
 @media screen and (min-width: 768px) {
   .order-input-form {
     max-width: 628px;
     padding: 50px 100px;
     height: 534px;
-    margin: auto 70px;
   }
 }
 @media screen and (min-width: 1280px) {
   .order-input-form {
     max-width: 529px;
     padding: 50px;
-    margin: auto 0px 0px 100px;
   }
 }
 .form-tittle {
@@ -156,7 +209,7 @@
   padding: 14px 14px 16px;
   width: 295px;
   height: 46px;
-  transition: border-color 0.5s ease;
+  transition: border-color 0.3s ease;
   outline: none;
 }
 @media screen and (min-width: 768px) {
@@ -194,7 +247,7 @@
   padding: 14px 14px 16px;
   width: 295px;
   height: 46px;
-  transition: border-color 0.5s ease;
+  transition: border-color 0.3s ease;
   outline: none;
 }
 @media screen and (min-width: 768px) {
@@ -240,7 +293,7 @@
   padding: 14px 16px;
   width: 295px;
   height: 91px;
-  transition: border-color 0.5s ease;
+  transition: border-color 0.3s ease;
   outline: none;
 }
 @media screen and (min-width: 768px) {
@@ -293,23 +346,23 @@
 .order-social {
   border-radius: 30px;
   padding: 40px 20px;
-  width: 335px;
+  max-width: 335px;
   height: 465px;
   background-color: #576f35;
-  margin: auto 20px;
+  margin-top: 20px;
 }
 @media screen and (min-width: 768px) {
   .order-social {
     padding: 50px;
-    width: 628px;
+    max-width: 628px;
     height: 490px;
-    margin: auto 70px;
+    margin-top: 25;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .order-social {
-    width: 527px;
+    max-width: 527px;
     height: 534px;
     margin: 0;
   }
