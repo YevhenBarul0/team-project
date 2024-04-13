@@ -1,7 +1,3 @@
-.hiw_wrap {
-  min-width: 375px;
-}
-
 .hiw_img_wrap {
   background: #7a3145;
   padding: 40px 20px;
@@ -78,6 +74,9 @@
 .icon_wrap {
   width: 52px;
   margin-right: 24px;
+}
+
+.icon-Ellipse-36 {
 }
 
 .hwi_list_item:not(:last-child) {
