@@ -1,52 +1,12 @@
-/* .order-container {
-  width: 100%;
-  padding: 100px 32px 50px;
-  height: 100%;
-  background-color: #7a3145;
-}
-@media screen and (min-width: 320px) and (max-width: 375px) {
-  .order-container {
-    width: 100%;
-  }
-}
-@media screen and (min-width: 768px) {
-  .order-container {
-    max-width: 768px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .order-container {
-    padding: 100px;
-    max-width: 1280px;
-  }
-}
-.order-head {
-  padding: 80px 20px 40px;
-  max-width: 335px;
-}
-@media screen and (min-width: 768px) {
-  .order-head {
-    padding: 100px 32px 50px;
-    max-width: 640px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .order-head {
-    padding: 100px 100px 50px;
-    max-width: 751px;
-  }
-} */
-.container {
-  max-width: 375px;
-  margin: 0 auto;
-}
 .order {
+  max-width: 375px;
   background-color: #7a3145;
 }
 .order-container {
   padding: 80px 20px 40px;
   background-color: #7a3145;
   min-width: 320px;
+  max-width: 375px;
 }
 @media screen and (max-width: 375px) {
   .order-container {
@@ -66,6 +26,7 @@
 }
 .order-head {
   padding: 0 0 20px 0;
+  min-width: 320px;
   max-width: 335px;
 }
 @media screen and (min-width: 768px) {
@@ -81,14 +42,16 @@
   }
 }
 .order-tittle {
+  display: inline-block;
   font-weight: 600;
   font-size: 48px;
   line-height: 104%;
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #fbfbfb;
+  min-width: auto;
   max-width: 335px;
-  text-align: left;
+  /* text-align: left; */
 }
 @media screen and (min-width: 768px) {
   .order-tittle {
@@ -99,7 +62,7 @@
 }
 @media screen and (min-width: 1280px) {
   .order-tittle {
-    max-width: 751px;
+    max-width: 740px;
   }
 }
 .harvest {
@@ -403,16 +366,16 @@
     letter-spacing: -0.01em;
   }
 }
+.order-soc-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 8px;
+}
 
-.order-soc-list li {
-  display: inline-flex;
-  gap: 8px;
-}
-.order-soc-list p {
+/* .order-soc-list p {
   margin-right: 8px;
-}
+} */
 .order-soc-item {
-  font-family: var(--font-family);
   font-weight: 600;
   font-size: 24px;
   line-height: 108%;
