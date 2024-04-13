@@ -5,11 +5,7 @@ button {
 .header {
   background: #576f35;
 }
-/* .container {
-  margin: 0 auto;
-  max-width: 320px;
-  padding: 0 20px;
-} */
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -18,9 +14,15 @@ button {
   padding-bottom: 48px;
   align-items: baseline;
 }
+
 .nav-logo-svg {
   fill: #fbfbfb;
 }
+.nav-logo-text-svg {
+  fill: #fbfbfb;
+  margin-left: -6px;
+}
+
 .nav-list {
   display: none;
 }
@@ -35,15 +37,8 @@ button {
   fill: #fbfbfb;
 }
 
-/* @media screen and (min-width: 375px) {
-  .container {
-    max-width: 375px;
-  }
-} */
-
 @media screen and (min-width: 768px) {
   .container {
-    /* max-width: 768px; */
     padding: 0 32px;
   }
   .nav {
@@ -51,8 +46,14 @@ button {
     padding-bottom: 50px;
   }
   .nav-logo-svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .nav-logo-text-svg {
     width: 194px;
     height: 18px;
+    margin-left: 8px;
   }
   .nav-btn-mob-icon {
     width: 27px;
