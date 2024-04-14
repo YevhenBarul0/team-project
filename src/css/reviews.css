@@ -1,3 +1,7 @@
+.reviews section {
+  background: #fbfbfb;
+}
+
 .reviews-container {
   padding-left: 20px;
   padding-right: 20px;
@@ -72,7 +76,7 @@
   top: 50%;
   border-radius: 50%;
   border: none;
-  fill: #7A3145;
+  fill: #7a3145;
   background-color: transparent;
 }
 
@@ -118,7 +122,7 @@
     width: 100%;
   }
   .reviews-item {
-    width: calc(50% - 13px);
+    width: calc(50% - 18px);
   }
   .reviews-item:nth-child(2) {
     display: list-item;
@@ -150,7 +154,7 @@
     width: 100%;
   }
   .reviews-item {
-    width: calc(33.33% - 17.33px);
+    width: calc(33.33% - 25px);
   }
   .reviews-item:nth-child(3) {
     display: list-item;
