@@ -1,35 +1,12 @@
 .advertisement {
+  background: #fbfbfb;
+}
+.advertisement-container {
   margin: 0 auto;
   padding: 80px 10px;
   width: 375px;
   height: 469px;
-  background: #fbfbfb;
 }
-@media screen and (min-width: 768px) {
-  .advertisement {
-    padding: 100px 16px;
-    width: 768px;
-    height: 488px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .advertisement {
-    padding: 100px;
-    width: 1280px;
-    height: 440px;
-  }
-}
-.advertisement-container {
-}
-@media screen and (min-width: 768px) {
-  .advertisement-container {
-  }
-}
-@media screen and (min-width: 1280px) {
-  .advertisement-container {
-  }
-}
-
 .hidden-title {
   position: absolute;
   width: 1px;
@@ -43,6 +20,7 @@
   overflow: hidden;
 }
 .text-with-background {
+  display: block;
   font-family: 'Inter Tight', sans-serif;
   font-weight: 600;
   font-size: 48px;
@@ -59,32 +37,13 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  display: inline-block;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-@media screen and (min-width: 768px) {
-  .text-with-background {
-    font-size: 64px;
-    line-height: 70px;
-    line-height: 1.09;
-    width: 736px;
-    height: 86px;
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .advertisement-text {
-    font-size: 76px;
-    line-height: 80px;
-    line-height: 1.05;
-    width: 808px;
-    height: 86px;
-    padding-left: 13px;
-  }
+
+  margin-left: -14px;
+  padding-left: 14px;
+  margin-right: 5px;
 }
 .advertisement-text-part {
+  display: block;
   font-family: 'Inter Tight', sans-serif;
   font-weight: 600;
   font-size: 48px;
@@ -93,19 +52,58 @@
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #141414;
+  padding-left: 10px;
+  width: 355px;
+  height: 306px;
+  margin-left: -14px;
+  padding-left: 14px;
+  margin-right: 5px;
 }
 
 @media screen and (min-width: 768px) {
+  .advertisement-container {
+    padding: 100px 16px;
+    width: 768px;
+    height: 488px;
+  }
+  .text-with-background {
+    font-size: 64px;
+    line-height: 70px;
+    line-height: 1.09;
+    width: 736px;
+    height: 86px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+  }
   .advertisement-text-part {
     font-size: 64px;
     line-height: 70px;
     line-height: 1.09;
+    width: 704px;
+    height: 280px;
   }
 }
 @media screen and (min-width: 1280px) {
-  .advertisement-text-part {
+  .advertisement-container {
+    padding: 100px;
+    width: 1280px;
+    height: 440px;
+  }
+  .text-with-background {
+    display: inline-block;
     font-size: 76px;
-    line-height: 80px;
     line-height: 1.05;
+    width: 808px;
+    height: 86px;
+    padding-left: 10px;
+    padding-top: 3px;
+  }
+  .advertisement-text-part {
+    display: inline-block;
+    font-size: 76px;
+    line-height: 105%;
+    width: 1054px;
+    height: 240px;
   }
 }
