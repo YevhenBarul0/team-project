@@ -59,11 +59,19 @@
 .reviewer-name {
   margin-top: 24px;
   margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  text-align: center;
 }
 .reviewer-comment {
   color: rgba(4, 3, 6, 0.4);
-  text-align: center;
+  font-weight: 500;
   font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  letter-spacing: -0.08em;
 }
 .slider-container {
   position: relative;
@@ -120,6 +128,8 @@
   }
   .reviews-list {
     width: 100%;
+    justify-content: space-between;
+    gap: 18px;
   }
   .reviews-item {
     width: calc(50% - 18px);
@@ -129,6 +139,7 @@
   }
   .reviewer-comment {
     font-size: 16px;
+    letter-spacing: 0em;
   }
 
   .section {
@@ -151,13 +162,17 @@
     padding-right: 100px;
   }
   .reviews-list {
-    width: 100%;
+    justify-content: space-between;
+    gap: 25px;
   }
   .reviews-item {
     width: calc(33.33% - 25px);
   }
   .reviews-item:nth-child(3) {
     display: list-item;
+  }
+  .reviewer-comment {
+    letter-spacing: 0.01em;
   }
   .next {
     display: none;
