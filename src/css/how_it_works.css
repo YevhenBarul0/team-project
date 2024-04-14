@@ -87,13 +87,6 @@
   width: 52px;
 }
 
-.icon-Ellipse-36 {
-  display: block;
-  stroke-width: 0;
-  stroke: rgba(122, 49, 69, 0.3);
-  fill: #7a3145;
-}
-
 .hwi_list_item:not(:last-child) {
   margin-bottom: 20px;
 }
@@ -114,27 +107,10 @@
 ==========MEDIA============
 ========================*/
 
-.container {
-  max-width: 320px;
-  margin: 0 auto;
-  padding: 0;
-}
-
-.section {
-  padding: 96px 0;
-}
-
 @media screen and (min-width: 375px) {
-  .container {
-    max-width: 375px;
-  }
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-
   .hiw_img_wrap {
     padding: 100px 64px;
   }
@@ -149,22 +125,16 @@
 
   .hiw_titlle {
     margin-bottom: 25px;
+    font-size: 32px;
   }
 
   .hiw_content_text {
     margin-bottom: 50px;
+    font-size: 16px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-
-  .section {
-    padding: 100px 0;
-  }
-
   .hiw_wrap {
     height: 795px;
     display: flex;
@@ -182,9 +152,11 @@
 
   .hiw_titlle {
     margin-bottom: 25px;
+    font-size: 32px;
   }
 
   .hiw_content_text {
     margin-bottom: 50px;
+    font-size: 16px;
   }
 }
