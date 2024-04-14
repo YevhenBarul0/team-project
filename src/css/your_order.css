@@ -14,6 +14,7 @@
 @media screen and (min-width: 768px) {
   .order-container {
     max-width: 768px;
+    padding: 80px 32px 40px;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -29,13 +30,13 @@
 }
 @media screen and (min-width: 768px) {
   .order-head {
-    padding: 20px 12px 50px;
+    padding: 20px 0 50px;
     max-width: 640px;
   }
 }
 @media screen and (min-width: 1280px) {
   .order-head {
-    padding: 0 0 50px 0;
+    padding: 0 0 37px 0;
     max-width: 751px;
   }
 }
