@@ -1,6 +1,11 @@
 .section-hero {
   background-color: #576f35;
 }
+.image-and-hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .hero-div {
   padding-bottom: 40px;
 }
@@ -33,6 +38,7 @@
 }
 @media screen and (min-width: 768px) {
   .hero-div {
+    justify-self: start;
     padding-bottom: 50px;
   }
   .h1-hero {
@@ -78,15 +84,15 @@
 }
 @media screen and (min-width: 1280px) {
   .hero-div {
-    width: 100%;
+    width: 630px;
     padding-top: 238px;
+    padding-left: 100px;
   }
   .image-and-hero {
     display: flex;
     justify-content: space-between;
-  }
-  .hero-div {
-    width: 630px;
+    margin: 0 auto;
+    max-width: 1280px;
   }
 
   .h1-hero {
