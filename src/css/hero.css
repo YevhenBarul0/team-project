@@ -1,9 +1,10 @@
 .section-hero {
   background-color: #576f35;
+}
+.hero-div {
   padding-bottom: 40px;
 }
 .h1-hero {
-  font-family: Inter Tight;
   font-size: 48px;
   text-transform: uppercase;
   line-height: 48px;
@@ -16,7 +17,7 @@
   margin-right: auto;
   margin-bottom: 20px;
   font-weight: 600;
-  display: flex;
+  
 }
 .p-hero {
   font-weight: 500;
@@ -26,14 +27,17 @@
   max-width: 335px;
   max-height: 90px;
 }
+.image {
+  box-sizing: border-box;
+  padding: 0;
+  color: #14141433;
+}
 @media screen and (min-width: 768px) {
-  .section-hero {
-    padding-bottom: 50px;
-  }
+    .hero-div {
+      padding-bottom: 50px;
+    }
   .h1-hero {
-    font-family: Inter Tight;
     font-size: 76px;
-    text-transform: uppercase;
     line-height: 76px;
     text-align: left;
     letter-spacing: -1.5%;
@@ -53,24 +57,44 @@
     max-width: 603px;
     max-height: 60px;
   }
+  .image {
+    visibility: hidden;
+  }
+    .background-img {
+          width: 768px;
+          height: 539px;
+      background-image: url(../img/hero/hero\ 1x\ tab.jpg);
+      background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-resolution: 192dpi) and (min-width: 768px) {
+  .background-img {
+      width: 768px;
+      height: 539px;
+      background-image: url(../img/hero/hero\ 2x\ tab.jpg);
+    }
 }
 @media screen and (min-width: 1280px) {
-  .section-hero {
-    padding-bottom: 50px;
-    padding-top: 238px;
-  }
+  .hero-div {
+      padding-right: 28px;
+      padding-left: 100px;
+      padding-top: 238px;
+    }
+    .image-and-hero {
+      display: inline-flex;
+    }
   .h1-hero {
-    font-family: Inter Tight;
     font-size: 76px;
-    text-transform: uppercase;
     line-height: 76px;
     text-align: left;
-    letter-spacing: -1.5%;
-    color: #fbfbfb;
+
     max-width: 502px;
     max-height: 304px;
     margin-left: 0;
-    margin-right: 0 auto;
+    margin-right: 0;
     margin-bottom: 128px;
     font-weight: 600;
   }
@@ -79,7 +103,13 @@
     font-size: 16px;
     line-height: 20px;
     color: #fbfbfb;
-    max-width: 472px;
+    max-width: 470px;
     max-height: 80px;
   }
+    .background-img {
+      background-image: url(../img//hero/hero\ 1x\ des.jpg);
+      width: 650px;
+        height: 800px;
+
+    }
 }
