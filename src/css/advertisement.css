@@ -1,11 +1,10 @@
-.advertisement {
+.additionally {
   background: #fbfbfb;
 }
-.advertisement-container {
+.additionally-container {
   margin: 0 auto;
   padding: 80px 10px;
-  width: 375px;
-  height: 469px;
+  max-width: 375px;
 }
 .hidden-title {
   position: absolute;
@@ -31,18 +30,16 @@
   color: #fbfbfb;
   background: #576f35;
   border-radius: 12px;
-  width: 355px;
-  height: 102px;
+  max-width: 355px;
   background-image: url(/img/advertisement-img/advertisement-image.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
   margin-left: -14px;
   padding-left: 14px;
   margin-right: 5px;
 }
-.advertisement-text-part {
+.additionally-text-part {
   display: block;
   font-family: 'Inter Tight', sans-serif;
   font-weight: 600;
@@ -53,57 +50,50 @@
   text-transform: uppercase;
   color: #141414;
   padding-left: 10px;
-  width: 355px;
-  height: 306px;
+  max-width: 355px;
   margin-left: -14px;
   padding-left: 14px;
   margin-right: 5px;
 }
 
 @media screen and (min-width: 768px) {
-  .advertisement-container {
+  .additionally-container {
     padding: 100px 16px;
-    width: 768px;
-    height: 488px;
+    max-width: 768px;
   }
   .text-with-background {
     font-size: 64px;
     line-height: 70px;
     line-height: 1.09;
-    width: 736px;
-    height: 86px;
+    max-width: 736px;
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 8px;
   }
-  .advertisement-text-part {
+  .additionally-text-part {
     font-size: 64px;
     line-height: 70px;
     line-height: 1.09;
-    width: 704px;
-    height: 280px;
+    max-width: 704px;
   }
 }
 @media screen and (min-width: 1280px) {
-  .advertisement-container {
+  .additionally-container {
     padding: 100px;
-    width: 1280px;
-    height: 440px;
+    max-width: 1280px;
   }
   .text-with-background {
     display: inline-block;
     font-size: 76px;
     line-height: 1.05;
-    width: 808px;
-    height: 86px;
+    max-width: 808px;
     padding-left: 10px;
     padding-top: 3px;
   }
-  .advertisement-text-part {
+  .additionally-text-part {
     display: inline-block;
     font-size: 76px;
     line-height: 105%;
-    width: 1054px;
-    height: 240px;
+    max-width: 1054px;
   }
 }
