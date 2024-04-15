@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
   // Функція для зміни відображення елементів
   function toggleTabletDisplay(index) {
     reviewsItems.forEach((item, i) => {
-      if (i === index || (i > 0 && i === index + 1)) {
+      if (i === index || i === (index + 1) % reviewsItems.length) {
         item.style.display = 'list-item';
       } else {
         item.style.display = 'none';
