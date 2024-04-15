@@ -17,14 +17,14 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/team-project/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/team-project/assets/index-9de8603b.css">
+    <link rel="stylesheet" href="/team-project/assets/index-61d5055a.css">
   </head>
   <body>
     <!-- Олександр Соловей -->
     <header class="header">
   <div class="container container-header">
     <nav class="nav">
-      <a href="./index.html">
+      <a href="./index.html" aria-label="logo green harvest">
         <svg class="nav-logo-svg" width="12" height="12">
           <use href="/team-project/assets/icons-b0292d6d.svg#logo"></use>
         </svg>
@@ -43,8 +43,8 @@
           <a href="#reviews" class="nav-link">Reviews</a>
         </li>
       </ul>
-      <button class="nav-btn">Shop now</button>
-      <button class="nav-btn-mob" data-menu-open>
+      <a href="#order" aria-label="button order" class="nav-btn">Shop now</a>
+      <button class="nav-btn-mob" data-menu-open aria-label="mobile menu">
         <svg class="nav-btn-mob-icon" width="21" height="16">
           <use href="/team-project/assets/icons-b0292d6d.svg#icon-menu-mob"></use>
         </svg>
@@ -64,19 +64,24 @@
       <nav class="modal-menu-nav">
         <ul class="modal-menu-list">
           <li class="modal-menu-item">
-            <a href="#howitworks" class="modal-menu-lik">How It Works</a>
+            <a href="#howitworks" class="modal-menu-link">How It Works</a>
           </li>
           <li class="modal-menu-item">
-            <a href="#vegetables" class="modal-menu-lik">Vegetables</a>
+            <a href="#vegetables" class="modal-menu-link">Vegetables</a>
           </li>
           <li class="modal-menu-item">
-            <a href="#reviews" class="modal-menu-lik">Reviews</a>
+            <a href="#reviews" class="modal-menu-link">Reviews</a>
           </li>
         </ul>
       </nav>
-      <button class="modal-menu-btn" type="button" data-modal-close>
+      <a
+        href="#order"
+        aria-label="butto mobile menu order"
+        class="modal-menu-btn"
+        type="button"
+      >
         Shop now
-      </button>
+      </a>
     </div>
   </div>
 </header>
