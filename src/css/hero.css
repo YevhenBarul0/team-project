@@ -17,7 +17,6 @@
   margin-right: auto;
   margin-bottom: 20px;
   font-weight: 600;
-  
 }
 .p-hero {
   font-weight: 500;
@@ -33,9 +32,9 @@
   color: #14141433;
 }
 @media screen and (min-width: 768px) {
-    .hero-div {
-      padding-bottom: 50px;
-    }
+  .hero-div {
+    padding-bottom: 50px;
+  }
   .h1-hero {
     font-size: 76px;
     line-height: 76px;
@@ -60,37 +59,40 @@
   .image {
     visibility: hidden;
   }
-    .background-img {
-          width: 768px;
-          height: 539px;
-      background-image: url(../img/hero/hero\ 1x\ tab.jpg);
-      background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        margin: 0 auto;
-    }
+  .background-img {
+    width: 768px;
+    height: 539px;
+    background-image: url(/img//hero/hero-1x-tab.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+  }
 }
 @media screen and (min-resolution: 192dpi) and (min-width: 768px) {
   .background-img {
-      width: 768px;
-      height: 539px;
-      background-image: url(../img/hero/hero\ 2x\ tab.jpg);
-    }
+    width: 768px;
+    height: 539px;
+    background-image: url(/img/hero/hero-2x-tab.jpg);
+  }
 }
 @media screen and (min-width: 1280px) {
   .hero-div {
-      padding-right: 28px;
-      padding-left: 100px;
-      padding-top: 238px;
-    }
-    .image-and-hero {
-      display: inline-flex;
-    }
+    width: 100%;
+    padding-top: 238px;
+  }
+  .image-and-hero {
+    display: flex;
+    justify-content: space-between;
+  }
+  .hero-div {
+    width: 630px;
+  }
+
   .h1-hero {
     font-size: 76px;
     line-height: 76px;
     text-align: left;
-
     max-width: 502px;
     max-height: 304px;
     margin-left: 0;
@@ -106,10 +108,16 @@
     max-width: 470px;
     max-height: 80px;
   }
-    .background-img {
-      background-image: url(../img//hero/hero\ 1x\ des.jpg);
-      width: 650px;
-        height: 800px;
-
-    }
+  .background-img {
+    background-image: url(/img/hero/hero-1x-des.jpg);
+    width: 650px;
+    height: 800px;
+  }
+}
+@media screen and (min-resolution: 192dpi) and (min-width: 1280px) {
+  .background-img {
+    width: 650px;
+    height: 800px;
+    background-image: url(/img/hero/hero-2x-des.jpg);
+  }
 }
