@@ -10,7 +10,7 @@ function updateViewportWidth() {
 
 window.addEventListener('resize', () => {
   if (updateViewportWidth() >= 1280)
-  reviewsItems.forEach((item, i) => (item.style.display = 'list-item'));
+    reviewsItems.forEach((item, i) => (item.style.display = 'list-item'));
 });
 
 document.addEventListener('DOMContentLoaded', function () {

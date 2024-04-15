@@ -12,7 +12,7 @@
   margin-bottom: 20px;
   color: #141414;
   text-transform: uppercase;
-  width: 335px;
+  width: 100%;
   letter-spacing: 0.04em;
 }
 .reviews-title-span {
@@ -23,7 +23,7 @@
   font-weight: 500;
   margin-bottom: 40px;
   color: #141414;
-  width: 335px;
+  width: 100%; 
   letter-spacing: -0.01em;
 }
 .section {
@@ -61,17 +61,17 @@
   margin-bottom: 8px;
   font-weight: 600;
   font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: -0.02em;
+  /* line-height: 1.25;
+  letter-spacing: -0.02em; */
   text-align: center;
 }
 .reviewer-comment {
   color: rgba(4, 3, 6, 0.4);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.29;
+  /* line-height: 1.29; */
   text-align: center;
-  letter-spacing: -0.08em;
+  /* letter-spacing: -0.08em; */
 }
 .slider-container {
   position: relative;
@@ -139,7 +139,7 @@
   }
   .reviewer-comment {
     font-size: 16px;
-    letter-spacing: 0em;
+    /* letter-spacing: 0em; */
   }
 
   .section {
