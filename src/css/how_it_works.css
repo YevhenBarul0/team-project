@@ -123,6 +123,12 @@
 @media screen and (min-width: 375px) {
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .contaner_2 {
+    max-width: 450px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .hiw_img_wrap {
     padding: 100px 0;
