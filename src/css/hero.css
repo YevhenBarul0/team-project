@@ -2,10 +2,18 @@
   background-color: #576f35;
 }
 .image-and-hero {
+  max-width: 320px;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
+@media screen and (min-width: 375px) {
+  .image-and-hero {
+    max-width: 375px;
+  }
+}
+
 .hero-div {
   padding-bottom: 40px;
 }
@@ -37,6 +45,9 @@
   color: #14141433;
 }
 @media screen and (min-width: 768px) {
+  .image-and-hero {
+    max-width: 768px;
+  }
   .hero-div {
     justify-self: start;
     padding-bottom: 50px;
