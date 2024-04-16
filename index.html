@@ -17,7 +17,7 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/team-project/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/team-project/assets/index-61d5055a.css">
+    <link rel="stylesheet" href="/team-project/assets/index-b3c47abf.css">
   </head>
   <body>
     <!-- Олександр Соловей -->
@@ -44,7 +44,7 @@
         </li>
       </ul>
       <a href="#order" aria-label="button order" class="nav-btn">Shop now</a>
-      <button class="nav-btn-mob" data-menu-open aria-label="mobile menu">
+      <button class="nav-btn-mob" data-menu-open aria-label="mobile menu open">
         <svg class="nav-btn-mob-icon" width="21" height="16">
           <use href="/team-project/assets/icons-b0292d6d.svg#icon-menu-mob"></use>
         </svg>
@@ -56,7 +56,12 @@
 
   <div class="backdrop" data-menu>
     <div class="modal-menu">
-      <button class="modal-menu-close" type="button" data-menu-close>
+      <button
+        class="modal-menu-close"
+        type="button"
+        data-menu-close
+        aria-label="button mobile menu close"
+      >
         <svg class="modal-menu-close-icon" width="32" height="32">
           <use href="/team-project/assets/icons-b0292d6d.svg#icon-close"></use>
         </svg>
@@ -78,7 +83,6 @@
         href="#order"
         aria-label="butto mobile menu order"
         class="modal-menu-btn"
-        type="button"
       >
         Shop now
       </a>
