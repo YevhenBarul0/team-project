@@ -17,7 +17,7 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/team-project/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/team-project/assets/index-d92dd369.css">
+    <link rel="stylesheet" href="/team-project/assets/index-ba02c17d.css">
   </head>
   <body>
     <!-- Олександр Соловей -->
@@ -44,7 +44,12 @@
         </li>
       </ul>
       <a href="#order" aria-label="button order" class="nav-btn">Shop now</a>
-      <button class="nav-btn-mob" data-menu-open aria-label="mobile menu open">
+      <button
+        class="nav-btn-mob js-open-menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+        aria-label="mobile menu open"
+      >
         <svg class="nav-btn-mob-icon" width="21" height="16">
           <use href="/team-project/assets/icons-b0292d6d.svg#icon-menu-mob"></use>
         </svg>
@@ -54,12 +59,11 @@
 
   <!-- modal-menu -->
 
-  <div class="backdrop" data-menu>
+  <div class="backdrop js-menu-container" id mobile-menu>
     <div class="modal-menu">
       <button
-        class="modal-menu-close"
+        class="modal-menu-close js-close-menu"
         type="button"
-        data-menu-close
         aria-label="button mobile menu close"
       >
         <svg class="modal-menu-close-icon" width="32" height="32">
@@ -367,7 +371,7 @@
 </section>
 
       <!-- Жека Степанов -->
-      <section class="order">
+      <section class="order" id="order">
   <div class="container order-container">
     <div class="order-head">
       <h2 class="order-tittle">
