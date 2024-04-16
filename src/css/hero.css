@@ -46,7 +46,7 @@
     background-position: center;
     background-size: cover;
     margin: 0 auto;
-    background-image: url(../img/hero/hero_mob.jpg);
+    background-image: url(/img/hero/hero_mob.jpg);
   }
 }
 
@@ -54,7 +54,7 @@
   .background-img {
     width: 375px;
     height: 370px;
-    background-image: url(../img/hero/hero_mob@2x.jpg);
+    background-image: url(/img/hero/hero_mob@2x.jpg);
   }
 }
 @media screen and (min-width: 768px) {
@@ -89,14 +89,14 @@
   .background-img {
     width: 768px;
     height: 539px;
-    background-image: url(../img/hero/hero_tab.jpg);
+    background-image: url(/img/hero/hero_tab.jpg);
   }
 }
 @media screen and (min-resolution: 192dpi) and (min-width: 768px) {
   .background-img {
     width: 768px;
     height: 539px;
-    background-image: url(../img/hero/hero_tab@2x.jpg);
+    background-image: url(/img/hero/hero_tab@2x.jpg);
   }
 }
 @media screen and (min-width: 1280px) {
@@ -133,7 +133,7 @@
     max-height: 80px;
   }
   .background-img {
-    background-image: url(../img/hero/hero_desk.jpg);
+    background-image: url(/img/hero/hero_desk.jpg);
     width: 650px;
     height: 800px;
   }
@@ -142,6 +142,6 @@
   .background-img {
     width: 650px;
     height: 800px;
-    background-image: url(../img/hero/hero_desk@2x.jpg);
+    background-image: url(/img/hero/hero_desk@2x.jpg);
   }
 }
