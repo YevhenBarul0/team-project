@@ -14,6 +14,7 @@
   }
 }
 .hero-div {
+  padding: 0 20px;
   margin-bottom: 40px;
 }
 .h1-hero {
@@ -46,6 +47,7 @@
     background-position: center;
     background-size: cover;
     margin: 0 auto;
+    padding: 0;
     background-image: url(/img/hero/hero_mob.jpg);
   }
 }
@@ -63,7 +65,6 @@
   }
   .hero-div {
     justify-self: start;
-    padding-bottom: 50px;
   }
   .h1-hero {
     font-size: 76px;
