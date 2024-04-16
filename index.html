@@ -17,7 +17,7 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/team-project/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/team-project/assets/index-b3c47abf.css">
+    <link rel="stylesheet" href="/team-project/assets/index-570a92ec.css">
   </head>
   <body>
     <!-- Олександр Соловей -->
@@ -404,20 +404,33 @@
           novalidate
           class="order-form"
         >
-          <input
-            class="inp"
-            type="text"
-            name="username"
-            placeholder="Full Name"
-          />
-          <input
-            class="inp-mail"
-            type="email"
-            name="email"
-            placeholder="Email"
-            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-            required
-          />
+          <div class="inp-name">
+            <input
+              class="inp"
+              type="text"
+              aria-label="Name"
+              name="username"
+              placeholder="Full Name"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              required
+            />
+            <p class="text-valid">Succes!</p>
+            <p class="text-invalid">Invalid email, try again</p>
+          </div>
+          <div class="inp-email">
+            <input
+              class="inp-mail"
+              type="email"
+              name="email"
+              aria-label="E-mail"
+              placeholder="Email"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              required
+            />
+            <p class="text-valid">Succes!</p>
+            <p class="text-invalid">Invalid email, try again</p>
+          </div>
+
           <textarea
             class="feedback"
             name="feedback"
@@ -453,7 +466,10 @@
         <p class="order-soc-text">Follow us on our social networks:</p>
         <ul class="order-soc-list">
           <li class="order-soc-item">
-            <a class="soc-inst" href=" https://www.instagram.com/goitclub/ "
+            <a
+              class="soc-inst"
+              href=" https://www.instagram.com/goitclub/ "
+              target="_blank"
               >instagram
             </a>
           </li>
@@ -466,6 +482,7 @@
               class="soc-fb"
               href="https://www.facebook.com/goITclub/  
 "
+              target="_blank"
               >facebook
             </a>
           </li>
@@ -477,6 +494,7 @@
               class="soc-ytb"
               href="https://www.youtube.com/c/GoIT 
 "
+              target="_blank"
               >youtube
             </a>
           </li>
