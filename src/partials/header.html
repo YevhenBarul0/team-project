@@ -21,7 +21,7 @@
         </li>
       </ul>
       <a href="#order" aria-label="button order" class="nav-btn">Shop now</a>
-      <button class="nav-btn-mob" data-menu-open aria-label="mobile menu">
+      <button class="nav-btn-mob" data-menu-open aria-label="mobile menu open">
         <svg class="nav-btn-mob-icon" width="21" height="16">
           <use href="./img/icons.svg#icon-menu-mob"></use>
         </svg>
@@ -33,7 +33,12 @@
 
   <div class="backdrop" data-menu>
     <div class="modal-menu">
-      <button class="modal-menu-close" type="button" data-menu-close>
+      <button
+        class="modal-menu-close"
+        type="button"
+        data-menu-close
+        aria-label="button mobile menu close"
+      >
         <svg class="modal-menu-close-icon" width="32" height="32">
           <use href="/img/icons.svg#icon-close"></use>
         </svg>
@@ -55,7 +60,6 @@
         href="#order"
         aria-label="butto mobile menu order"
         class="modal-menu-btn"
-        type="button"
       >
         Shop now
       </a>
